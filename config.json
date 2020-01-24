@@ -1,0 +1,13 @@
+{
+  "settings_for_files":
+    {
+      "path_to_files": "C:\\PythonProjects\\test\\files",
+      "path_to_copy_on_server": "/test"
+    },
+  "settings_for_ftp":
+    {
+      "host": "37.140.192.202",
+      "username": "u0931359_maksel",
+      "password": "admin123"
+    }
+}

@@ -18,12 +18,17 @@ class MyThread(Thread):
             )
         # setup encoding
         self.ftp.encoding = 'utf-8'
-        # change dir to 'path_to_copy_on_server'
-        self.ftp.cwd(config[ 'settings_for_files' ][ 'path_to_copy_on_server' ])
+        # change home directory to directory 'path_to_copy_on_server'
+        try:
+            self.ftp.cwd(config[ 'settings_for_files' ][ 'path_to_copy_on_server' ])
+        # if directory not found, creating new directory and change directory
+        except ftplib.error_perm:
+            self.ftp.mkd(config[ 'settings_for_files' ][ 'path_to_copy_on_server' ])
+            self.ftp.cwd(config[ 'settings_for_files' ][ 'path_to_copy_on_server' ])
         self. full_file_name = os.path.join(root, file_name)
 
     def run(self):
-        # starting thread
+        """Starting thread"""
         ftpresponse = self.ftp.storbinary("STOR %s" % self.file_name, open(self.full_file_name, 'rb'))
         print(self.number_of_thread, self.file_name, ftpresponse[ 4: ])
         self.ftp.quit()

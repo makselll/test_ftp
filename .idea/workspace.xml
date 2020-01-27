@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85b53a83-5ef3-4d32-825b-d928c2149f5f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../telega/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/../telega/parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../telega/parser_proxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../telega/parser_proxy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/01-windows-10-installation-language.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/The Wolf Among Us.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/fname.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/to_ftp.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/Кликер.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,9 +59,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Python\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
@@ -91,7 +97,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

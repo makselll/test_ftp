@@ -1,13 +1,35 @@
 {
-  "settings_for_files":
+  "settings_for_threads":
     {
-      "path_to_files": "C:\\PythonProjects\\test\\files",
-      "path_to_copy_on_server": "/test"
+      "number_of_threads": "10"
     },
   "settings_for_ftp":
     {
       "host": "37.140.192.202",
       "username": "u0931359_maksel",
       "password": "admin123"
+    },
+  "settings_for_files":
+    {
+      "file1.png":
+        {
+          "path_from": "C:\\PythonProjects\\test\\files\\file1.png",
+          "path_to": "/"
+        },
+      "file2.txt":
+        {
+          "path_from": "C:\\PythonProjects\\test\\files\\file2.txt",
+          "path_to": "/testkj"
+        },
+      "file4.pdf":
+        {
+          "path_from": "C:\\PythonProjects\\test\\files\\file4.pdf",
+          "path_to": "/test"
+        },
+      "file5.pdf":
+        {
+          "path_from": "C:\\PythonProjects\\test\\files\\file5.pdf",
+          "path_to": "/test/khj"
+        }
     }
 }
